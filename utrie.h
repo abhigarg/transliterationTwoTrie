@@ -125,7 +125,7 @@ void getWord(shared_ptr<uNode> unode, string &word){
 
 bool UTrie::isEmpty() {
 
-    return this->root->children.empty();
+    return false; //this->root->children.empty();
 
 }
 
